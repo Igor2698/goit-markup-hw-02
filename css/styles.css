@@ -15,6 +15,9 @@ body {
 ul {
   list-style: none;
 }
+.link{
+  text-decoration: none;
+}
 /* header */
 
 .header-link {
@@ -112,6 +115,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: var(--main-color);
 }
 
 /* section 4 */
@@ -120,7 +124,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -151,7 +155,7 @@ ul {
 .footer {
   background: #2e2f42;
 }
-.logo-footer {
+.logo-span-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -162,7 +166,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
+  color: #F4F4FD;
 }
 
 .footer-text {
